@@ -8,6 +8,17 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <canvas id="board"></canvas>
+    <div id="game_canvas">
+        <div class="doodleSelect">
+            <button class="character-btn" data-character="female"><img src="./Assets/Doodler-female-right.png" alt="Female Doodler"></button>
+            <button class="character-btn" data-character="ninja"><img src="./Assets/Doodler-ninja-right.png" alt="Ninja Doodler"></button>
+            <button class="character-btn" data-character="rabit"><img src="./Assets/Doodler-rabit-right.png" alt="Bunny Doodler"></button>
+        </div>
+        <canvas id="board"></canvas>
+        <div class="bgSelect">
+            <button class="bg-btn" data-bg="bunny">Bunny Background</button>
+            <button class="bg-btn" data-bg="ninja">Ninja Background</button>
+        </div>          
+    </div>
 </body>
 </html>

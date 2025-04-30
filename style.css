@@ -2,6 +2,26 @@ body{
     text-align: center;
 }
 
+#game_canvas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.doodleSelect, .bgSelect {
+    flex: 0 0 100px;
+    button{
+        margin: 20px;
+    }
+    img{
+        width: 64px;
+        height: 64px
+    }
+}
+
+
 #board{
-    background-image: url("./Assets/doodlejumpbg.png");
+    background-image: url("./Assets/bunny-bg-theme.png");
 }
